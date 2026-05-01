@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MeowrilPortfolio/static/css/main.fd1b06dd.css",
-    "main.js": "/MeowrilPortfolio/static/js/main.49f420b4.js",
+    "main.css": "/MeowrilPortfolio/static/css/main.8f6c005e.css",
+    "main.js": "/MeowrilPortfolio/static/js/main.766df4dd.js",
     "static/js/453.2dbaa554.chunk.js": "/MeowrilPortfolio/static/js/453.2dbaa554.chunk.js",
     "static/media/resume.jpg": "/MeowrilPortfolio/static/media/resume.bd151e3fc2e83305c827.jpg",
     "static/media/AVRIL.png": "/MeowrilPortfolio/static/media/AVRIL.6007b1bc0a448048525a.png",
@@ -19,12 +19,12 @@
     "static/media/phone.png": "/MeowrilPortfolio/static/media/phone.88ff3932cd94b47fe787.png",
     "static/media/facebook.png": "/MeowrilPortfolio/static/media/facebook.bfd1cfff9f9521198b26.png",
     "index.html": "/MeowrilPortfolio/index.html",
-    "main.fd1b06dd.css.map": "/MeowrilPortfolio/static/css/main.fd1b06dd.css.map",
-    "main.49f420b4.js.map": "/MeowrilPortfolio/static/js/main.49f420b4.js.map",
+    "main.8f6c005e.css.map": "/MeowrilPortfolio/static/css/main.8f6c005e.css.map",
+    "main.766df4dd.js.map": "/MeowrilPortfolio/static/js/main.766df4dd.js.map",
     "453.2dbaa554.chunk.js.map": "/MeowrilPortfolio/static/js/453.2dbaa554.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd1b06dd.css",
-    "static/js/main.49f420b4.js"
+    "static/css/main.8f6c005e.css",
+    "static/js/main.766df4dd.js"
   ]
 }
