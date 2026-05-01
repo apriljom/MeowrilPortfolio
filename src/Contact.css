@@ -1,0 +1,124 @@
+.contact-section {
+ 
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+/* Phone Mockups */
+.contact-visuals {
+  position: relative;
+  flex: 1;
+  height: 500px;
+}
+
+.phone-mockup {
+  position: absolute;
+  width: 220px;
+  height: 450px;
+  background: white;
+  border: 8px solid #9b72aa;
+  border-radius: 40px;
+  overflow: hidden;
+  box-shadow: 10px 10px 30px rgba(0,0,0,0.2);
+}
+
+.phone-1 {
+  transform: rotate(-20deg);
+  left: 100px;
+  z-index: 1;
+}
+
+.phone-2 {
+  transform: rotate(15deg);
+  left: 300px;
+  top: 30px;
+  z-index: 2;
+}
+.phone-screen {
+  width: 100%;
+  height: 100%;
+  background-color: #e0f2fe;
+  
+  /* THIS MAKES IT FIT PERFECTLY */
+  background-size: cover;      /* Fills the whole screen area */
+  background-position: center;  /* Keeps the center of the pic visible */
+  background-repeat: no-repeat; /* No tiling */
+  display: block;               /* Ensures no hidden gaps */
+}
+
+/* Ensure the mockup itself doesn't cut off the screen weirdly */
+.phone-mockup {
+  position: absolute;
+  width: 220px;
+  height: 450px;
+  background: white;
+  border: 8px solid #9b72aa;
+  border-radius: 40px;
+  overflow: hidden;            /* This clips the pic to the phone's rounded corners */
+  box-shadow: 10px 10px 30px rgba(0,0,0,0.2);
+}
+/* Contact Info Side */
+.contact-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.icon-bg {
+  width: 60px;
+  height: 60px;
+  background: #222;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid white;
+}
+
+.icon-bg img {
+  width: 30px;
+  height: 30px;
+  filter: invert(1); /* Makes icons white if they are black */
+}
+
+.brush-stroke {
+  background: white;
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  width: 100%;
+  max-width: 350px;
+  /* Mask effect to mimic brush style */
+  clip-path: polygon(2% 0%, 98% 5%, 100% 50%, 97% 95%, 5% 100%, 0% 45%);
+}
+
+@media (max-width: 900px) {
+  .contact-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .contact-visuals {
+    height: 400px;
+    width: 300px;
+  }
+}

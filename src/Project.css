@@ -1,0 +1,228 @@
+.projects-section {
+  
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns across */
+  gap: 30px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.project-card {
+  background: white;
+  border: 2px solid #333;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth zoom transition */
+  cursor: pointer;
+}
+
+/* THE ZOOM EFFECT */
+.project-card:hover {
+  transform: scale(1.05); /* Slight zoom-in on hover */
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  z-index: 10;
+}
+
+/* Browser Window Header Styles */
+.window-header {
+  background-color: #9b72aa; /* Darker purple for header */
+  padding: 8px 12px;
+  border-bottom: 2px solid #333;
+}
+
+.window-dots {
+  display: flex;
+  gap: 6px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border: 1.5px solid #333;
+  border-radius: 50%;
+}
+
+.window-content {
+  height: 180px;
+  background-color: #e0f2fe; /* Light blue sky color from your pic */
+}
+
+.window-footer {
+  background-color: #9b72aa;
+  padding: 10px;
+  border-top: 2px solid #333;
+  display: flex;
+  align-items: center;
+}
+
+.footer-bar {
+  background: white;
+  height: 12px;
+  width: 80px;
+  border: 1.5px solid #333;
+  border-radius: 10px;
+}
+
+/* Responsive fix for smaller screens */
+@media (max-width: 900px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.project-card:hover {
+  transform: scale(1.05); /* This is the zoom */
+  transition: 0.3s;
+}
+/* --- THE POPUP LOGIC --- */
+
+/* Blurs the background so the focus is on the zoomed project */
+.blur-bg {
+  filter: blur(12px);
+  pointer-events: none; /* Can't click background cards while one is zoomed */
+}
+
+/* Dark transparent layer behind the zoomed project */
+.project-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+}
+
+/* The Zoomed-In Window */
+.project-modal {
+  background: white;
+  border: 3px solid #333;
+  border-radius: 20px;
+  width: 80%;
+  max-width: 900px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+  animation: zoomInAnim 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.zoomed-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* THE X BUTTON STYLING */
+.close-btn {
+  background-color: #ff5f56; /* Red like a real browser X */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-weight: bold;
+  color: #333;
+}
+
+.back-x {
+  margin-left: auto;
+  background: #333;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Zoom Animation */
+@keyframes zoomInAnim {
+  from { transform: scale(0.5); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+/* --- THE HEADER (Pantay & Right Aligned) --- */
+.window-header {
+  background-color: #9b72aa; /* Darker purple header */
+  padding: 10px 15px;
+  border-bottom: 2px solid #333;
+  display: flex;           /* Uses flex for alignment */
+  justify-content: space-between; /* Pushes dots to left, X to right */
+  align-items: center;
+  position: relative;
+}
+
+.window-dots {
+  display: flex;
+  gap: 8px;
+}
+
+/* THE X BUTTON ON THE RIGHT */
+.modal-close-x {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: bold;
+  cursor: pointer;
+  line-height: 1;
+  padding: 0;
+  margin: 0;
+  transition: transform 0.2s;
+}
+
+.modal-close-x:hover {
+  color: #ff5f56; /* Subtle red hover for the X */
+  transform: scale(1.1);
+}
+
+/* --- THE MODAL (No excess, perfectly balanced) --- */
+.project-modal {
+  background: white;
+  border: 3px solid #333;
+  border-radius: 20px;
+  width: 85%;
+  max-width: 850px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; /* Ensures content doesn't bleed out */
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+  animation: zoomInAnim 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.zoomed-content {
+  flex: 1; /* Takes up all available middle space */
+  background-color: #e0f2fe; /* Matches the landscape background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0; /* Ensures no extra spacing */
+}
+
+.window-footer {
+  background-color: #9b72aa;
+  padding: 12px;
+  border-top: 2px solid #333;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-bar {
+  background: white;
+  height: 12px;
+  width: 100px;
+  border: 2px solid #333;
+  border-radius: 10px;
+}
