@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.4b7e5a86.css",
-    "main.js": "/static/js/main.34290a18.js",
-    "static/js/453.2dbaa554.chunk.js": "/static/js/453.2dbaa554.chunk.js",
-    "static/media/resume.jpg": "/static/media/resume.bd151e3fc2e83305c827.jpg",
-    "static/media/AVRIL.png": "/static/media/AVRIL.6007b1bc0a448048525a.png",
-    "static/media/toga.png": "/static/media/toga.4fe38a55070c2202ba41.png",
-    "static/media/socials1.jpg": "/static/media/socials1.73a27389c11032391004.jpg",
-    "static/media/socials.jpg": "/static/media/socials.141baaa05a0975218e29.jpg",
-    "static/media/canva.png": "/static/media/canva.7d59b1cee63de37dc59b.png",
-    "static/media/react.png": "/static/media/react.17e5cb984343d1346ebd.png",
-    "static/media/instagram.png": "/static/media/instagram.b4ff9be06a8f84fada1b.png",
-    "static/media/css.png": "/static/media/css.1bfeaedc76974566d1a3.png",
-    "static/media/tiktok.png": "/static/media/tiktok.f61d62f01c2f347eec0e.png",
-    "static/media/figma.png": "/static/media/figma.72fbc535ebe253a5dbc4.png",
-    "static/media/mail.png": "/static/media/mail.9d4fb065e6679439a9a3.png",
-    "static/media/linkedin.png": "/static/media/linkedin.92380c03cc82f139a166.png",
-    "static/media/phone.png": "/static/media/phone.88ff3932cd94b47fe787.png",
-    "static/media/facebook.png": "/static/media/facebook.bfd1cfff9f9521198b26.png",
-    "index.html": "/index.html",
-    "main.4b7e5a86.css.map": "/static/css/main.4b7e5a86.css.map",
-    "main.34290a18.js.map": "/static/js/main.34290a18.js.map",
-    "453.2dbaa554.chunk.js.map": "/static/js/453.2dbaa554.chunk.js.map"
+    "main.css": "/MeowrilPortfolio/static/css/main.4b7e5a86.css",
+    "main.js": "/MeowrilPortfolio/static/js/main.a1508cbe.js",
+    "static/js/453.2dbaa554.chunk.js": "/MeowrilPortfolio/static/js/453.2dbaa554.chunk.js",
+    "static/media/resume.jpg": "/MeowrilPortfolio/static/media/resume.bd151e3fc2e83305c827.jpg",
+    "static/media/AVRIL.png": "/MeowrilPortfolio/static/media/AVRIL.6007b1bc0a448048525a.png",
+    "static/media/toga.png": "/MeowrilPortfolio/static/media/toga.4fe38a55070c2202ba41.png",
+    "static/media/socials1.jpg": "/MeowrilPortfolio/static/media/socials1.73a27389c11032391004.jpg",
+    "static/media/socials.jpg": "/MeowrilPortfolio/static/media/socials.141baaa05a0975218e29.jpg",
+    "static/media/canva.png": "/MeowrilPortfolio/static/media/canva.7d59b1cee63de37dc59b.png",
+    "static/media/react.png": "/MeowrilPortfolio/static/media/react.17e5cb984343d1346ebd.png",
+    "static/media/instagram.png": "/MeowrilPortfolio/static/media/instagram.b4ff9be06a8f84fada1b.png",
+    "static/media/css.png": "/MeowrilPortfolio/static/media/css.1bfeaedc76974566d1a3.png",
+    "static/media/tiktok.png": "/MeowrilPortfolio/static/media/tiktok.f61d62f01c2f347eec0e.png",
+    "static/media/figma.png": "/MeowrilPortfolio/static/media/figma.72fbc535ebe253a5dbc4.png",
+    "static/media/mail.png": "/MeowrilPortfolio/static/media/mail.9d4fb065e6679439a9a3.png",
+    "static/media/linkedin.png": "/MeowrilPortfolio/static/media/linkedin.92380c03cc82f139a166.png",
+    "static/media/phone.png": "/MeowrilPortfolio/static/media/phone.88ff3932cd94b47fe787.png",
+    "static/media/facebook.png": "/MeowrilPortfolio/static/media/facebook.bfd1cfff9f9521198b26.png",
+    "index.html": "/MeowrilPortfolio/index.html",
+    "main.4b7e5a86.css.map": "/MeowrilPortfolio/static/css/main.4b7e5a86.css.map",
+    "main.a1508cbe.js.map": "/MeowrilPortfolio/static/js/main.a1508cbe.js.map",
+    "453.2dbaa554.chunk.js.map": "/MeowrilPortfolio/static/js/453.2dbaa554.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4b7e5a86.css",
-    "static/js/main.34290a18.js"
+    "static/js/main.a1508cbe.js"
   ]
 }
