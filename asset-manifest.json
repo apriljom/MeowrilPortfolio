@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/MeowrilPortfolio/static/css/main.5ac97aa5.css",
+    "main.css": "/MeowrilPortfolio/static/css/main.c26d21b6.css",
     "main.js": "/MeowrilPortfolio/static/js/main.766df4dd.js",
     "static/js/453.2dbaa554.chunk.js": "/MeowrilPortfolio/static/js/453.2dbaa554.chunk.js",
     "static/media/resume.jpg": "/MeowrilPortfolio/static/media/resume.bd151e3fc2e83305c827.jpg",
@@ -19,12 +19,12 @@
     "static/media/phone.png": "/MeowrilPortfolio/static/media/phone.88ff3932cd94b47fe787.png",
     "static/media/facebook.png": "/MeowrilPortfolio/static/media/facebook.bfd1cfff9f9521198b26.png",
     "index.html": "/MeowrilPortfolio/index.html",
-    "main.5ac97aa5.css.map": "/MeowrilPortfolio/static/css/main.5ac97aa5.css.map",
+    "main.c26d21b6.css.map": "/MeowrilPortfolio/static/css/main.c26d21b6.css.map",
     "main.766df4dd.js.map": "/MeowrilPortfolio/static/js/main.766df4dd.js.map",
     "453.2dbaa554.chunk.js.map": "/MeowrilPortfolio/static/js/453.2dbaa554.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ac97aa5.css",
+    "static/css/main.c26d21b6.css",
     "static/js/main.766df4dd.js"
   ]
 }
